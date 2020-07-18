@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\myflutter\\sih\\build\\permission\\intermediates\\res\\merged\\release\\values-iw\\values-iw.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Kritika Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\b011d4b5d2ec7eea4ff52e346e1e6e65\\core-1.1.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\myflutter\\sih\\build\\permission\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-iw\\values-iw.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Kritika Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\b011d4b5d2ec7eea4ff52e346e1e6e65\\core-1.1.0\\res\\values-iw\\values-iw.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
