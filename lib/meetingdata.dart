@@ -90,7 +90,7 @@ class _ShowDataPageState extends State<ShowDataPage> {
         //allData.add(d);
       }
       print(allData);
-     // speak("Key Phrases of the discussion made on $date are");
+      // speak("Key Phrases of the discussion made on $date are");
       speak("Key Phrases of the discussion made on $date are $allData ");
     });
   }
@@ -104,9 +104,17 @@ class _ShowDataPageState extends State<ShowDataPage> {
   }
 
   List<Text> UI() {
-return allData.split(",").map((text) => Text(text, style: TextStyle(color: Colors.black,fontSize: 20, fontWeight: FontWeight.bold),)).toList();
-
-}
+    return allData
+        .split(",")
+        .map((text) => Text(
+              text,
+              style: TextStyle(
+                  color: Colors.black,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),
+            ))
+        .toList();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -123,8 +131,8 @@ return allData.split(",").map((text) => Text(text, style: TextStyle(color: Color
           ),
         ),
         elevation: 10.0,
-        toolbarHeight: 80.0,
-        backgroundColor:Color(0xff3F51B5),
+        // toolbarHeight: 80.0,
+        backgroundColor: Color(0xff3F51B5),
         centerTitle: true,
       ),
       body: Column(
@@ -151,11 +159,13 @@ return allData.split(",").map((text) => Text(text, style: TextStyle(color: Color
                   ),
                   color: Colors.blue,
                   child: Icon(Icons.question_answer,
-                      color: Colors.white, size:100),
+                      color: Colors.white, size: 100),
                 ),
               ]),
-          SizedBox(height: 30,),
-           
+          SizedBox(
+            height: 30,
+          ),
+
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: UI(),

@@ -306,17 +306,16 @@ class _VoiceHomeState extends State<VoiceHome> {
           ),
         ),
         elevation: 10.0,
-        toolbarHeight: 80.0,
+        // toolbarHeight: 80.0,
         backgroundColor: Color(0xff3F51B5),
         centerTitle: true,
       ),
       body: Container(
         decoration: BoxDecoration(
-          gradient:  LinearGradient(
-             begin: Alignment.topCenter,
+          gradient: LinearGradient(
+              begin: Alignment.topCenter,
               end: Alignment.bottomCenter,
-        colors: [Color(0xff30cfd0), Color(0xff330867)]
-      ),
+              colors: [Color(0xff30cfd0), Color(0xff330867)]),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -342,7 +341,7 @@ class _VoiceHomeState extends State<VoiceHome> {
               height: 20,
             ),
             SingleChildScrollView(
-            child:Container(
+                child: Container(
               width: MediaQuery.of(context).size.width * 0.8,
               decoration: BoxDecoration(
                 color: Colors.cyanAccent[200],

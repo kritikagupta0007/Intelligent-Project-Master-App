@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\myflutter\\sih\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zu\\values-zu.xml",
+            "outputFile": "D:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zu\\values-zu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Kritika Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\b1ad3f02701a3624176e806e9e3feb2f\\jetified-play-services-basement-16.1.0\\res\\values-zu\\values.xml",
+                    "source": "C:\\Users\\Sandeep\\.gradle\\caches\\transforms-2\\files-2.1\\65c01be2a0e633443d84d5455768ba84\\jetified-play-services-basement-16.1.0\\res\\values-zu\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,24 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Kritika Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\42cbf635eabfc380ce4d5aedce5f9202\\jetified-play-services-base-16.0.1\\res\\values-zu\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,354,562,695,797,1024,1151,1301,1436,1655,1763,1959,2088,2305,2488,2575,2670",
-                        "endColumns": "108,207,132,101,226,126,149,134,218,107,195,128,216,182,86,94,109",
-                        "endOffsets": "353,561,694,796,1023,1150,1300,1435,1654,1762,1958,2087,2304,2487,2574,2669,2779"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,218,426,563,669,896,1027,1181,1511,1730,1842,2038,2171,2388,2575,2666,2765",
-                        "endColumns": "112,207,136,105,226,130,153,138,218,111,195,132,216,186,90,98,113",
-                        "endOffsets": "213,421,558,664,891,1022,1176,1315,1725,1837,2033,2166,2383,2570,2661,2760,2874"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Kritika Gupta\\.gradle\\caches\\transforms-2\\files-2.1\\b011d4b5d2ec7eea4ff52e346e1e6e65\\core-1.1.0\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\Sandeep\\.gradle\\caches\\transforms-2\\files-2.1\\b011d4b5d2ec7eea4ff52e346e1e6e65\\core-1.1.0\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2879",
                         "endColumns": "100",
                         "endOffsets": "2975"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Sandeep\\.gradle\\caches\\transforms-2\\files-2.1\\47c63b2416d64e58a5e22cea45bc9d4f\\jetified-play-services-base-16.0.1\\res\\values-zu\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,354,562,695,797,1024,1151,1301,1436,1655,1763,1959,2088,2305,2488,2575,2670",
+                        "endColumns": "108,207,132,101,226,126,149,134,218,107,195,128,216,182,86,94,109",
+                        "endOffsets": "353,561,694,796,1023,1150,1300,1435,1654,1762,1958,2087,2304,2487,2574,2669,2779"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,218,426,563,669,896,1027,1181,1511,1730,1842,2038,2171,2388,2575,2666,2765",
+                        "endColumns": "112,207,136,105,226,130,153,138,218,111,195,132,216,186,90,98,113",
+                        "endOffsets": "213,421,558,664,891,1022,1176,1315,1725,1837,2033,2166,2383,2570,2661,2760,2874"
                     }
                 }
             ]

@@ -1,4 +1,4 @@
-#Mon Jul 13 00:05:18 IST 2020
+#Sat Jul 25 10:14:53 IST 2020
 path.1=classes.dex
 path.0=classes.dex
 renamed.7=classes8.dex
@@ -9,14 +9,14 @@ renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex
-base.7=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_5.dex
-base.6=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_4.dex
-base.5=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_3.dex
-base.4=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_2.dex
-base.3=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_1.dex
-base.2=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
-base.1=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
-base.0=D\:\\myflutter\\sih\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+base.7=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_5.dex
+base.6=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_4.dex
+base.5=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_3.dex
+base.4=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_2.dex
+base.3=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_1.dex
+base.2=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\out\\classes_0.dex
+base.1=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
+base.0=D\:\\SIH2020\\AppDevelopment\\IPM-App\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
 path.7=classes_5.dex
 path.6=classes_4.dex
 path.5=classes_3.dex

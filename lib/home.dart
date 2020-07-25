@@ -13,14 +13,13 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 
 //import 'package:url_launcher/url_launcher.dart'; //this is for url
 //import 'dart:async';
- 
+
 class HomePage extends StatefulWidget {
   @override
   _HomePageState createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
-
   //  Future<void> _launchUniversalLinkIos(String url) async {
   //   if (await canLaunch(url)) {
   //     final bool nativeAppLaunchSucceeded = await launch(
@@ -82,16 +81,15 @@ class _HomePageState extends State<HomePage> {
             title: Text('Do you want to log out..!!'),
             actions: <Widget>[
               MaterialButton(
-                elevation: 5.0,
-                splashColor: Colors.grey,
-                child: Text(
-                  'YES',
-                  style: TextStyle(color: Colors.blue, fontSize: 20.0),
-                ),
-                onPressed: () {
-                  exit(0);
-                  }
+                  elevation: 5.0,
+                  splashColor: Colors.grey,
+                  child: Text(
+                    'YES',
+                    style: TextStyle(color: Colors.blue, fontSize: 20.0),
                   ),
+                  onPressed: () {
+                    exit(0);
+                  }),
               MaterialButton(
                 elevation: 5.0,
                 splashColor: Colors.grey,
@@ -115,8 +113,8 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-     backgroundColor: Colors.white,
-     //(0xff00008b),
+      backgroundColor: Colors.white,
+      //(0xff00008b),
       appBar: AppBar(
         title: Text(
           'HOME',
@@ -128,7 +126,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ),
         elevation: 30.0,
-        toolbarHeight: 80.0,
+        // toolbarHeight: 80.0,
         backgroundColor: Color(0xff3F51B5),
         centerTitle: true,
       ),
@@ -168,7 +166,7 @@ class _HomePageState extends State<HomePage> {
               Navigator.push(
                   context,
                   new MaterialPageRoute(
-                      builder: (BuildContext context) =>  new GitHub()));
+                      builder: (BuildContext context) => new GitHub()));
             }),
             CostomListTitle(MdiIcons.jira, 'JIRA', () {
               Navigator.of(context).pop();
@@ -218,12 +216,12 @@ class _HomePageState extends State<HomePage> {
           padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
           children: <Widget>[
             MyItems(MdiIcons.githubBox, 'GITHUB', 0xffed622b, () {
-             // Navigator.pop(context);
+              // Navigator.pop(context);
               Navigator.push(
                   context,
                   new MaterialPageRoute(
                       builder: (BuildContext context) => new GitHub()));
-             // _launchUniversalLinkIos('https://whatismyipaddress.com/');
+              // _launchUniversalLinkIos('https://whatismyipaddress.com/');
             }),
             MyItems(MdiIcons.jira, 'JIRA', 0xff26cd3c, () {
               //Navigator.of(context).pop();
