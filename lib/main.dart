@@ -85,45 +85,39 @@ class _LoginPageState extends State<LoginPage> {
 
   @override
   Widget build(BuildContext context) {
-     return SafeArea(
+    return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.white70,
-        body:Stack(
-          children: <Widget>[
-            Container(
-              width:  MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height*0.7,
-              child: Container(
-                decoration: BoxDecoration( 
-                  color: Color(0xff283593),
-                  borderRadius: BorderRadius.only(
-                    bottomLeft: const Radius.circular(70),
-                    bottomRight: const Radius.circular(70)
-                    )
-                  )
+          backgroundColor: Colors.white70,
+          body: Stack(
+            children: <Widget>[
+              Container(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height * 0.7,
+                child: Container(
+                    decoration: BoxDecoration(
+                        color: Color(0xff283593),
+                        borderRadius: BorderRadius.only(
+                            bottomLeft: const Radius.circular(70),
+                            bottomRight: const Radius.circular(70)))),
               ),
-            ),
-            Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Container(
-                  child: new Form(
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Container(
+                      child: new Form(
                     key: _formKey,
                     child: ListView(
                       shrinkWrap: true,
                       children: <Widget>[
-                         buildlogo(),
-                         buildContainer(),
+                        buildlogo(),
+                        buildContainer(),
                       ],
                     ),
-                  )
-                )
-               
-              ],
-            )
-          ],
-        )
-      ),
+                  ))
+                ],
+              )
+            ],
+          )),
     );
     // return Scaffold(
     //     resizeToAvoidBottomPadding: false,
@@ -159,23 +153,19 @@ class _LoginPageState extends State<LoginPage> {
     //         );
   }
 
-Widget buildlogo(){
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Text(
-          "IPM",
+  Widget buildlogo() {
+    return Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+      Text("IPM",
           style: TextStyle(
-            fontSize: MediaQuery.of(context).size.height/15,
+            fontSize: MediaQuery.of(context).size.height / 15,
             fontWeight: FontWeight.bold,
             fontFamily: 'Pacifico',
             color: Colors.white,
-          )
-        )
-      ]);
+          ))
+    ]);
   }
 
-  Widget buildContainer(){
+  Widget buildContainer() {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
@@ -184,8 +174,8 @@ Widget buildlogo(){
             Radius.circular(30),
           ),
           child: Container(
-            height: MediaQuery.of(context).size.height*0.5,
-            width: MediaQuery.of(context).size.width*0.8,
+            height: MediaQuery.of(context).size.height * 0.5,
+            width: MediaQuery.of(context).size.width * 0.8,
             decoration: BoxDecoration(
               color: Colors.white,
             ),
@@ -193,17 +183,19 @@ Widget buildlogo(){
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: <Widget>[
-                    Text(
-                      "Login",
-                      style: TextStyle(
-                        fontSize: MediaQuery.of(context).size.height/25,
-                        fontWeight: FontWeight.bold,
-                        fontFamily: 'Pacifico'),
-                    )
-                  ],
+                Flexible(
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(
+                        "Login",
+                        style: TextStyle(
+                            fontSize: MediaQuery.of(context).size.height / 25,
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'Pacifico'),
+                      )
+                    ],
+                  ),
                 ),
                 showUserInput(),
                 showUserPassword(),
@@ -239,10 +231,10 @@ Widget buildlogo(){
             hoverColor: Colors.white,
             filled: true,
             fillColor: Colors.white,
-             prefixIcon: Icon(
-            Icons.email,
-            color: Color(0xff3F51B5),
-          ),
+            prefixIcon: Icon(
+              Icons.email,
+              color: Color(0xff3F51B5),
+            ),
             border:
                 OutlineInputBorder(borderRadius: BorderRadius.circular(60.0)),
           ),
@@ -263,10 +255,10 @@ Widget buildlogo(){
               hintText: 'Password',
               filled: true,
               fillColor: Colors.white,
-               prefixIcon: Icon(
-            Icons.lock,
-            color: Color(0xff3F51B5),
-          ),
+              prefixIcon: Icon(
+                Icons.lock,
+                color: Color(0xff3F51B5),
+              ),
               border: OutlineInputBorder(
                 borderRadius: BorderRadius.circular(60.0),
                 borderSide: BorderSide(color: Colors.grey, width: 1.0),
@@ -302,11 +294,10 @@ Widget buildlogo(){
           child: Text(
             'Continue',
             style: TextStyle(
-              color: Colors.white,
-              letterSpacing: 1.5,
-              fontSize: MediaQuery.of(context).size.height/30,
-              fontFamily: 'Pacifico'
-            ),
+                color: Colors.white,
+                letterSpacing: 1.5,
+                fontSize: MediaQuery.of(context).size.height / 30,
+                fontFamily: 'Pacifico'),
           ),
           // Icon(MdiIcons.arrowExpandRight,),
           // iconSize:
